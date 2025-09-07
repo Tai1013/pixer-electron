@@ -5,6 +5,13 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   base: './',
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern'
+      }
+    }
+  },
   plugins: [vue()],
   resolve: {
     alias: {

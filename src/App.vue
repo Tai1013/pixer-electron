@@ -2,7 +2,8 @@
 </script>
 
 <template>
-  <div></div>
+  <div class="min-h-screen">
+  </div>
 </template>
 
 <style scoped>
